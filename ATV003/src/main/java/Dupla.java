@@ -3,41 +3,35 @@
  *
  * @author Artur
  */
-public class Dupla {
-    
-    
-    //<editor-fold defaultstate="collapsed" desc="Declaração de variáveis">
-    private Double a;
-    private Double b;
+public class Dupla <T1,T2> {
 
-//</editor-fold>
-    //
+    private T1 a;
+    private T2 b;
 
-    //
-    //<editor-fold defaultstate="collapsed" desc="G&S">
-    public Double getA() {
-        return a;
-    }
-
-    public Double getB() {
-        return b;
-    }
-
- 
-        public void setA(Double a) {
+    public Dupla(T1 a, T2 b) {
         this.a = a;
-    }
-
-    public void setB(Double b) {
         this.b = b;
     }
 
-    
-    
-    
-//</editor-fold>
+    public void setA(T1 a) {
+        this.a = a;
+    }
 
+    public void setB(T2 b) {
+        this.b = b;
+    }
+
+    public T1 getA() {
+        return a;
+    }
+
+    public T2 getB() {
+        return b;
+    }
     
     
     
-}
+   
+    
+    
+   }

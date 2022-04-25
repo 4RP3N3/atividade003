@@ -13,7 +13,7 @@ public class RegLin {
     //<editor-fold defaultstate="collapsed" desc="Atributos">
     
     
-    private static Dupla saida=new Dupla();
+    
     
     private static Double w0=0.0;
     private static Double w1=0.0;
@@ -22,6 +22,7 @@ public class RegLin {
     private static int e=2000;
     private static Double lr=0.03;
     
+    private static Dupla<Double,Double> saida=new Dupla<>(w0,w1);
      
 //</editor-fold>
    
