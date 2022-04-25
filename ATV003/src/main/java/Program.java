@@ -79,6 +79,7 @@ public class Program {
         System.out.printf(" %s %.3f %s %.3f \n","O valor final de W1 e W0 eh: ", par.getA()," e ",par.getB());
         
     }
+    
 
     
     
