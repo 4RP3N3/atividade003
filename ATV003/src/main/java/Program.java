@@ -74,7 +74,7 @@ public class Program {
         
         //par=RegLin.metodo1(ins, outs);
         //par=RegLin.metodo2(ins, outs, 2000);
-        par=RegLin.metodo3(ins, outs, 2000,0.003);
+        par=RegLin.metodo3(ins, outs, 2000,0.025);
         
         System.out.printf(" %s %.3f %s %.3f \n","O valor final de W1 e W0 eh: ", par.getA()," e ",par.getB());
         
